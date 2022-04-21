@@ -1,0 +1,37 @@
+<div class="persons-fields" ng-controller="PersonsFieldsCtrl">
+    <div class="persons-fields__container">
+        <p class="persons-fields__title">Сотрудник</p>
+        <div class="persons-fields__content">
+            <div class="persons-fields__crud">
+                <button class="persons-fields__update" ng-click="updatePersons()">
+                    <span>Редактировать данные</span>
+                </button>
+                <button class="persons-fields__delete" ng-click="confirmRemoveData()">
+                    <span>Удалить данные</span>
+                </button>
+            </div>
+            <div class="persons-fields__subcontent">
+                <div class="persons-fields__fields">
+                    <div class="person__initials">
+                        <p>{{person.surname + " " + person.name + " " + person.patronymic}}</p>
+                    </div>
+                    <div>
+                        <p class="person__birthdate">Дата рождения</p>
+                        <p class="person__content">{{person.dateOfBirth}}</p>
+                    </div>
+                    <div>
+                        <p class="person__post">Должность</p>
+                        <p class="person__content">{{person.position.name}}</p>
+                    </div>
+                    <div>
+                        <p class="person__phone">Телефон</p>
+                        <p class="person__content">{{person.telephone}}</p>
+                    </div>
+                </div>
+                <div class="persons-fields__avatar-container">
+                    <img class="persons-fields__avatar" src="data:image/png;base64,{{person.photo}}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

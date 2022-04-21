@@ -1,0 +1,33 @@
+.tabs__container {
+  display: flex;
+  background-color: white;
+  border: 1px dotted #9991c0;
+  border-radius: 20px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.tabs__open {
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
+  span {
+    padding: 0 5px;
+  }
+  &:hover {
+    background-color: rgba(218, 218, 218, 0.78);
+    border-radius: 20px;
+    transition: 0.8s all;
+    cursor: pointer;
+  }
+}
+
+.tabs__close {
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

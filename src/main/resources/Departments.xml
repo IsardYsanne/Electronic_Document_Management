@@ -1,0 +1,35 @@
+<staffRoot>
+    <staffs>
+        <staff uuid="9b469681-0d71-42e6-bf28-460194afea4c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="departmentStaff">
+            <fullDepartmentName>administrative department</fullDepartmentName>
+            <shortDepartmentName>administration</shortDepartmentName>
+            <manager uuid="b84d04b8-8038-11ec-a8a3-0242ac120002">
+                <surname>Antipova</surname>
+                <name>Viktoria</name>
+                <patronymic>Vladimirovna</patronymic>
+                <position>director</position>
+                <dateOfBirth>1970.05.05</dateOfBirth>
+                <telephone>89871234567</telephone>
+            </manager>
+            <departmentPhones>89875612356</departmentPhones>
+            <departmentPhones>89195123456</departmentPhones>
+        </staff>
+        <staff uuid="cba55f83-a14b-4df2-bca0-7ad134aacd17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="departmentStaff">
+            <fullDepartmentName>development department</fullDepartmentName>
+            <shortDepartmentName>development</shortDepartmentName>
+            <manager uuid="0ff7c52c-8039-11ec-a8a3-0242ac120002">
+                <surname>Miniahmetov</surname>
+                <name>Vadim</name>
+                <patronymic>Marsovich</patronymic>
+                <position>manager</position>
+                <dateOfBirth>1990.03.15</dateOfBirth>
+                <telephone>89871564327</telephone>
+            </manager>
+            <departmentPhones>89795678956</departmentPhones>
+            <departmentPhones>89357912056</departmentPhones>
+            <departmentPhones>89195635791</departmentPhones>
+        </staff>
+    </staffs>
+</staffRoot>

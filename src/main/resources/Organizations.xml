@@ -1,0 +1,47 @@
+<staffRoot>
+    <staffs>
+        <staff uuid="9434644d-16ad-4c3a-8f23-58aebee2a377" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="organizationStaff">
+            <fullOrganizationName>RiGa</fullOrganizationName>
+            <shortOrganizationName>RG</shortOrganizationName>
+            <director uuid="b84d04b8-8038-11ec-a8a3-0242ac120002">
+                <surname>Antipova</surname>
+                <name>Viktoria</name>
+                <patronymic>Vladimirovna</patronymic>
+                <position>director</position>
+                <dateOfBirth>1970.05.05</dateOfBirth>
+                <telephone>89871234567</telephone>
+            </director>
+            <organizationPhones>88002345678</organizationPhones>
+            <organizationPhones>87002235678</organizationPhones>
+        </staff>
+        <staff uuid="4defbed4-79e7-407e-97fc-4214c3903189" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="organizationStaff">
+            <fullOrganizationName>Гугол</fullOrganizationName>
+            <shortOrganizationName>ГГ</shortOrganizationName>
+            <director uuid="c4a67528-8038-11ec-a8a3-0242ac120002">
+                <surname>Ivanov</surname>
+                <name>Andey</name>
+                <patronymic>Borisovich</patronymic>
+                <position>manager</position>
+                <dateOfBirth>1995.01.11</dateOfBirth>
+                <telephone>89871237643</telephone>
+            </director>
+            <organizationPhones>88124795675</organizationPhones>
+        </staff>
+        <staff uuid="566c7d1c-220a-4f8f-b3dc-c7921168d97f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="organizationStaff">
+            <fullOrganizationName>Carte Blanche</fullOrganizationName>
+            <shortOrganizationName>CB</shortOrganizationName>
+            <director uuid="ce753f76-8038-11ec-a8a3-0242ac120002">
+                <surname>Petrov</surname>
+                <name>Igor</name>
+                <patronymic>Yurievich</patronymic>
+                <position>developer</position>
+                <dateOfBirth>1986.10.18</dateOfBirth>
+                <telephone>89835678991</telephone>
+            </director>
+            <organizationPhones>88192145634</organizationPhones>
+        </staff>
+    </staffs>
+</staffRoot>

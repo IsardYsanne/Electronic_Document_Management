@@ -1,0 +1,21 @@
+<div class="container__persons">
+    <p class="persons__title">Все сотрудники</p>
+    <div class="persons__list-container">
+        <ul class="persons__list">
+            <li class="persons__sublist" ng-repeat="person in persons"
+                ng-click="switchTab({value:person.id, subject: 'employees'})">
+                <a class="persons__link">{{person.surname}} {{person.name}} {{person.patronymic}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="staff__persons-creator">
+    <div class="staff__creator">
+        <button class="staff-person__create" ng-click="switchTab({value:'create', subject: 'employees'})">
+            <span class="staff-person__btn">Создать сотрудника</span>
+        </button>
+        <button class="staff-post__create" ng-click="switchTab({value:'create', subject: 'post'})">
+            <span class="staff-post__btn">Создать должность</span>
+        </button>
+    </div>
+</div>

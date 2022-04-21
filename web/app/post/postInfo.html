@@ -1,0 +1,18 @@
+<div class="post-info__container">
+    <p class="post-info__title">Информация о должности</p>
+    <div class="persons-fields__crud">
+        <button class="persons-fields__delete" ng-click="confirmRemovePost()">
+            <span>Удалить данные</span>
+        </button>
+    </div>
+    <div class="post-info__content">
+        <div class="post-info__fields row">
+            <div class="post__field col-6"><span>ID</span></div>
+            <div class="post__field col-6">Название</div>
+        </div>
+        <div class="post-info__fields-content row">
+            <div class="post__field col-6">{{posts.id}}</div>
+            <div class="post__field col-6">{{posts.name}}</div>
+        </div>
+    </div>
+</div>

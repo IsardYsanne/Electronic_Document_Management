@@ -1,0 +1,16 @@
+<div class="posts-btn__container" id="accordionPanelsStayOpenExample">
+    <div class="post__panel accordion-header" id="panelsStayOpen-headingOne">
+        <button class="posts-btn__btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" ng-click="">
+            <span>Посмотреть все должности</span>
+        </button>
+    </div>
+    <div id="panelsStayOpen-collapseOne" class="posts-btn__info accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="posts-btn__body accordion-body">
+            <ul class="posts__list">
+                <li ng-repeat="post in posts" ng-click="switchTab({value:post.id, subject:'post'})">
+                    <a class="posts__link">{{post.name}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

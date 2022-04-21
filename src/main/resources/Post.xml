@@ -1,0 +1,24 @@
+<staffRoot>
+    <staffs>
+        <staff uuid="4421b4e4-df2b-4b85-a504-097ed50b4511" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="postStaff">
+            <name>developer</name>
+        </staff>
+        <staff uuid="afd7662a-ebad-47c5-8257-b6c56e5b44ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="postStaff">
+            <name>manager</name>
+        </staff>
+        <staff uuid="2bea7ffd-94f0-48e8-9960-77a9eb5cf6f7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="postStaff">
+            <name>director</name>
+        </staff>
+        <staff uuid="769533e4-9f87-4539-9b90-e77e4db99e8a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="postStaff">
+            <name>pahan</name>
+        </staff>
+        <staff uuid="9c8d215d-9dbe-4c84-b7c7-31ba88529f3f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="postStaff">
+            <name>kingpin</name>
+        </staff>
+    </staffs>
+</staffRoot>

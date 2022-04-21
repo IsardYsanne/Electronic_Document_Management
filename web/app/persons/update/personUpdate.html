@@ -1,0 +1,44 @@
+<div class="person-update__container">
+    <p class="person-update__title">Редактировать чела</p>
+    <div class="person-update__form-container">
+        <form class="person-update__form" name="personFormUpdate" novalidate ng-submit="personFormUpdate.$valid && updatePerson(person)">
+            <div class="mb-3 person-update__form-block">
+                <label for="name" class="person-form-label">Введите Имя</label>
+                <input name="name" type="text" class="person-form-input" id="name" ng-model="person.name" ng-required="true">
+                <p ng-if="personFormUpdate.name.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="surname" class="person-form-label">Введите Фамилию</label>
+                <input name="surname" type="text" class="person-form-input" id="surname" ng-model="person.surname" ng-required="true">
+                <p  ng-if="personFormUpdate.surname.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="patronymic" class="person-form-label">Введите Отчество</label>
+                <input name="patronymic" type="text" class="person-form-input" id="patronymic" ng-model="person.patronymic" ng-required="true">
+                <p ng-if="personFormUpdate.patronymic.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="date" class="person-form-label">Введите Дату Рождения</label>
+                <input name="dateOfBirth" type="date" class="person-form-input" id="date" ng-model="person.dateOfBirth" ng-required="true">
+                <p ng-if="personFormUpdate.dateOfBirth.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="post" class="person-form-label">Выберите Должность</label>
+                <select name="position" class="person-form-input" ng-required="true" id="post" ng-model="person.position">
+                    <option ng-repeat="position in positions" ng-value="position">{{position.name}}</option>
+                </select>
+                <p ng-if="personFormUpdate.position.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="phone" class="person-form-label">Введите Номер телефона</label>
+                <input name="telephone" type="tel" class="person-form-input" id="phone" ng-model="person.telephone" ng-required="true">
+                <p ng-if="personFormUpdate.telephone.$invalid" class="validation">* Поле, обязательное к заполнению</p>
+            </div>
+            <div class="mb-3 person-update__form-block">
+                <label for="avatar" class="person-form-label">Загрузите аватар</label>
+                <input name="photo" type="file" class="person-form-input" id="avatar" ng-model="person.photo">
+            </div>
+            <button type="submit" class="person-form_submit">Update</button>
+        </form>
+    </div>
+</div>

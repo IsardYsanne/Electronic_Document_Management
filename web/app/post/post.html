@@ -1,0 +1,15 @@
+<div class="post-create__container">
+    <p class="post-create__title">Создать должность</p>
+    <div class="post-create__form">
+        <form name="createPost" novalidate ng-submit="createPost.$valid && createPosition(position)">
+            <div class="post-create__input-form">
+                <label for="postName" class="post-create__label">
+                    <span>Введите название должности</span>
+                </label>
+                <input id="postName" class="post-create__input" name="name" type="text" ng-required="true" ng-model="position.name"/>
+                <span class="post-create__validation" ng-if="createPost.name.$invalid">* Вы не указали название.</span>
+            </div>
+            <button class="post-create__btn" type="submit"><span>Создать</span></button>
+        </form>
+    </div>
+</div>

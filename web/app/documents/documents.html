@@ -1,0 +1,38 @@
+<div class="container__documents accordion-flush" id="accordionFlushExample">
+    <!--                <img class="document__arrow" ng-src="{{img}}" width="18" height="18">-->
+    <p class="documents__title">Все документы</p>
+    <div class="documents__list">
+        <div class="documents__task">
+            <p class="document__title-document accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Поручения</p>
+            <div class="document__task-container accordion-collapse collapse" id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <ul class="document__list">
+                    <li ng-repeat="document in documents | filter:{type: 'Task'}" ng-click="switchTab({value:document.id, subject:'document'})">
+                        <a class="document__link"> № {{document.regNumber}} {{document.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="documents__incoming">
+            <p class="document__title-document accordion-button collapsed"  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Входящие</p>
+
+            <div class="document__incoming-container accordion-collapse collapse" id="flush-collapseTwo"  aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <ul class="document__list">
+                    <li ng-repeat="document in documents | filter:{type: 'Incoming'}" ng-click="switchTab({value:document.id, subject:'document'})">
+                        <a class="document__link">№ {{document.regNumber}} {{document.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="documents__outgoing">
+            <p class="document__title-document accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Исходящие</p>
+
+            <div class="document__outgoing-container accordion-collapse collapse" id="flush-collapseThree" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <ul class="document__list">
+                    <li ng-repeat="document in documents | filter:{type: 'Outgoing'}" ng-click="switchTab({value:document.id, subject:'document'})">
+                        <a class="document__link">№ {{document.regNumber}} {{document.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

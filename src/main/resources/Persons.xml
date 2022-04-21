@@ -1,0 +1,69 @@
+<staffRoot>
+    <staffs>
+        <staff uuid="0ff7c52c-8039-11ec-a8a3-0242ac120002" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="personStaff">
+            <surname>Miniahmetov</surname>
+            <name>Vadim</name>
+            <patronymic>Marsovich</patronymic>
+            <position uuid="769533e4-9f87-4539-9b90-e77e4db99e8a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:type="postStaff">
+                <name>pahan</name>
+            </position>
+            <dateOfBirth>10.03.1995</dateOfBirth>
+            <telephone>89871564327</telephone>
+            <photo>avatar/pusheen.jpg</photo>
+        </staff>
+        <staff uuid="b84d04b8-8038-11ec-a8a3-0242ac120002" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="personStaff">
+            <surname>Antipova</surname>
+            <name>Viktoria</name>
+            <patronymic>Vladimirovna</patronymic>
+            <position uuid="afd7662a-ebad-47c5-8257-b6c56e5b44ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:type="postStaff">
+                <name>manager</name>
+            </position>
+            <dateOfBirth>05.05.1970</dateOfBirth>
+            <telephone>89871234567</telephone>
+            <photo>avatar/pusheen2.jpg</photo>
+        </staff>
+        <staff uuid="ce753f76-8038-11ec-a8a3-0242ac120002" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="personStaff">
+            <surname>Petrov</surname>
+            <name>Igor</name>
+            <patronymic>Yurievich</patronymic>
+            <position uuid="4421b4e4-df2b-4b85-a504-097ed50b4511" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:type="postStaff">
+                <name>developer</name>
+            </position>
+            <dateOfBirth>10.10.1986</dateOfBirth>
+            <telephone>89835678991</telephone>
+            <photo>avatar/pusheen3.jpg</photo>
+        </staff>
+        <staff uuid="c4a67528-8038-11ec-a8a3-0242ac120002" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="personStaff">
+            <surname>Ivanov</surname>
+            <name>Andey</name>
+            <patronymic>Borisovich</patronymic>
+            <position uuid="2bea7ffd-94f0-48e8-9960-77a9eb5cf6f7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:type="postStaff">
+                <name>director</name>
+            </position>
+            <dateOfBirth>11.01.1995</dateOfBirth>
+            <telephone>89871237643</telephone>
+            <photo>avatar/pusheen4.jpg</photo>
+        </staff>
+        <staff uuid="ac6e68e5-a733-4ef2-8b40-278e180e9882" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:type="personStaff">
+            <surname>Kordyukova</surname>
+            <name>Galina</name>
+            <patronymic>Yurievna</patronymic>
+            <position uuid="9c8d215d-9dbe-4c84-b7c7-31ba88529f3f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:type="postStaff">
+                <name>kingpin</name>
+            </position>
+            <dateOfBirth>09.03.1997</dateOfBirth>
+            <telephone>89873536337</telephone>
+            <photo>avatar/pusheen5.jpg</photo>
+        </staff>
+    </staffs>
+</staffRoot>
